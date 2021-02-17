@@ -1,7 +1,11 @@
+import Story from "./Story";
+import RecentList from "./RecentList";
+
 const Storybox = () =>{
     return(
-        <div id={'Storybox'}>
-
+        <div className={'Storybox'}>
+        <Story/>
+        <RecentList/>
         </div>
     )
 }

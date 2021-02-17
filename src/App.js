@@ -9,6 +9,7 @@ function App() {
   return (
     <div className={'App'}>
 <Header newsHead={newsHead}/>
+<Storybox/>
 <Footer/>
     </div>
   );

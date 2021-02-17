@@ -77,6 +77,26 @@ word-spacing: 1em;
   color: #f4f4f4;
 }
 
+.Storybox{
+  display: flex;
+  margin: 20px 30px;
+}
+
+#storyX{
+  border: 1px gray dashed;
+  width: 70%;
+}
+
+.recentStory{
+margin-left: auto;
+margin-right: 150px;
+  border: 1px gray dashed;
+}
+.recentStory ul{
+  list-style: none;
+  border: 1px gray dashed;
+}
+
 footer{
 background: #555555;
   height: 2.5rem;
@@ -91,7 +111,7 @@ footer p{
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 497px) {
  .navbar{
    height: 50px;
  }
