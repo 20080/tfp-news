@@ -37,7 +37,6 @@ body{
   /*letter-spacing: 0.1em;*/
   margin-right: 35px;
 }
-
 .header-links li{
   margin: 0;
   display: inline-block;
@@ -77,6 +76,21 @@ word-spacing: 1em;
   text-decoration: none;
   color: #f4f4f4;
 }
+
+footer{
+background: #555555;
+  height: 2.5rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+footer p{
+  margin-top:7px;
+  color: white;
+  text-align: center;
+}
+
+
 @media (max-width: 420px) {
  .navbar{
    height: 50px;
