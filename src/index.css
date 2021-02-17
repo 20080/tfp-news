@@ -59,17 +59,16 @@ body{
 }
 .navbar{
 background: black;
-  padding: 18px ;
+  padding: 15px ;
 height: 20px;
   width: auto;
 }
 .navbar ul{
-  padding-left: 20px;
-
+  padding: 0 20px;
 }
 .navbar li{
 display: inline;
-word-spacing: 1.3em;
+word-spacing: 1em;
 }
 .navbar a:hover{
   color: deeppink;
@@ -78,4 +77,8 @@ word-spacing: 1.3em;
   text-decoration: none;
   color: #f4f4f4;
 }
-
+@media (max-width: 420px) {
+ .navbar{
+   height: 50px;
+ }
+}
