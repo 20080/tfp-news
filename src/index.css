@@ -14,7 +14,6 @@ body{
   line-height: 1.5em;
   margin: 0;
 }
-
 .main-page-header{
   background: rgb(9,6,48);
   background: linear-gradient(9deg, rgba(9,6,48,1) 0%, rgba(149,42,115,1) 42%, rgba(153,32,213,1) 100%);
@@ -60,7 +59,7 @@ body{
 }
 .navbar{
 background: black;
-  padding: 15px ;
+  padding: 18px ;
 height: 20px;
   width: auto;
 }

@@ -1,6 +1,8 @@
+import Navbar from "./Navbar";
 const Header = ({newsHead}) => {
     return (
-        <header className={'main-page-header'}>
+        <header>
+        <div className={'main-page-header'}>
             <h1 className={'header-text'}>{newsHead}</h1>
             <div className={'header-links'}>
                 <ul>
@@ -9,6 +11,8 @@ const Header = ({newsHead}) => {
                     <li><a href={'#'}>About </a></li>
                 </ul>
             </div>
+        </div>
+            <Navbar/>
         </header>
     )
 }
