@@ -19,10 +19,10 @@ body{
   background: linear-gradient(9deg, rgba(9,6,48,1) 0%, rgba(149,42,115,1) 42%, rgba(153,32,213,1) 100%);
   min-height: 50px;
   color: #f4f4f4;
-  width: auto;
   padding-top: 25px;
   padding-left: 18px;
 }
+
 .header-text{
   width: auto;
   /*color: yellow;*/
@@ -60,7 +60,7 @@ body{
 background: black;
   padding: 15px ;
 height: 20px;
-  width: 100%;
+
   top: 0;
 }
 
@@ -131,7 +131,7 @@ footer p{
     margin: 20px 30px 2.5rem 0;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 510px) {
  .navbar{
    height: 50px;
  }
