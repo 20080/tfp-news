@@ -95,12 +95,18 @@ word-spacing: 1em;
 margin-left: auto;
 margin-right: auto ;
 }
-.recentStory h2{
+#recentList-Header{
   color: white;
-  padding: 10px 15px 10px 4px;
+  padding: 10px 100% 10px 4px;
   background: rgb(9,6,48);
   background: linear-gradient(9deg, rgba(9,6,48,1) 0%, rgba(149,42,115,1) 42%, rgba(153,32,213,1) 100%);
 
+}
+#recentList-Header h2 {
+  padding-top: 10px;
+  padding-left: 100px;
+  font-style: italic;
+  padding-right: 5px;
 }
 .recentStory ul{
   list-style: none;
