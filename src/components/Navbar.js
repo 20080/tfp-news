@@ -1,6 +1,6 @@
 const Navbar =()=>{
     return(
-        <nav className={"navbar"}>
+        <nav className={"navbar"} >
                 <div>
                     <ul>
                         <li><a href={'#'}>World </a></li>

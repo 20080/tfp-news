@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 const Header = ({newsHead}) => {
+
     return (
         <header>
         <div className={'main-page-header'}>

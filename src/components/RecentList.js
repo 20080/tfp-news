@@ -1,6 +1,7 @@
 const RecentList = ()=>{
     return(
         <div className={'recentStory'}>
+            <h2>Recent Articles</h2>
         <ul>
             <li><a>Item 1 Extra Text</a></li>
             <li><a>Item 2 Extra Text</a></li>

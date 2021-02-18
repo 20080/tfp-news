@@ -60,14 +60,17 @@ body{
 background: black;
   padding: 15px ;
 height: 20px;
-  width: auto;
+  width: 100%;
+  top: 0;
 }
+
 .navbar ul{
   padding: 0 20px;
 }
 .navbar li{
 display: inline;
 word-spacing: 1em;
+
 }
 .navbar a:hover{
   color: deeppink;
@@ -75,6 +78,7 @@ word-spacing: 1em;
 .navbar a{
   text-decoration: none;
   color: #f4f4f4;
+  text-align: center;
 }
 
 .Storybox{
@@ -84,18 +88,22 @@ word-spacing: 1em;
 }
 
 #storyX{
-  border: 1px gray dashed;
   width: 70%;
 }
 
 .recentStory{
 margin-left: auto;
-margin-right: 150px;
-  border: 1px gray dashed;
+margin-right: auto ;
+}
+.recentStory h2{
+  color: white;
+  padding: 10px 15px 10px 4px;
+  background: rgb(9,6,48);
+  background: linear-gradient(9deg, rgba(9,6,48,1) 0%, rgba(149,42,115,1) 42%, rgba(153,32,213,1) 100%);
+
 }
 .recentStory ul{
   list-style: none;
-  border: 1px gray dashed;
 }
 
 footer{
@@ -111,8 +119,19 @@ footer p{
   text-align: center;
 }
 
-
-@media (max-width: 515px) {
+@media (max-width: 700px) {
+  .Storybox{
+    flex-direction: column;
+  }
+  #storyX{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .recentStory{
+    margin: 20px 30px 2.5rem 0;
+  }
+}
+@media (max-width: 480px) {
  .navbar{
    height: 50px;
  }
