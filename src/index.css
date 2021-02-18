@@ -79,7 +79,8 @@ word-spacing: 1em;
 
 .Storybox{
   display: flex;
-  margin: 20px 30px;
+  margin: 20px 30px 2.5rem 30px;
+
 }
 
 #storyX{
@@ -100,7 +101,7 @@ margin-right: 150px;
 footer{
 background: #555555;
   height: 2.5rem;
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
 }
@@ -111,7 +112,7 @@ footer p{
 }
 
 
-@media (max-width: 497px) {
+@media (max-width: 515px) {
  .navbar{
    height: 50px;
  }
