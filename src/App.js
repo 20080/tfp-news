@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, useLocation } from "react-router-dom"
 
 function App() {
-    const [newsHead,setNewsHead] = useState('TFP news')
+    // const [newsHead,setNewsHead] = useState('TFP news')
   return (
 <Router>
     <div className={'App'}>
