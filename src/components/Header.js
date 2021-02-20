@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import {Link} from "react-router-dom";
 const Header = ({newsHead}) => {
 
     return (
@@ -7,7 +8,7 @@ const Header = ({newsHead}) => {
             <h1 className={'header-text'}>{newsHead}</h1>
             <div className={'header-links'}>
                 <ul>
-                    <li><a href={'#'}>Stories </a></li>
+                    <li><Link to ={'#'}>Stories </Link></li>
                     <li><a href={'#'}>Support </a></li>
                     <li><a href={'#'}>About </a></li>
                 </ul>
