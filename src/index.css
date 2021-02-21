@@ -29,6 +29,12 @@ body{
   letter-spacing: 0.1em;
   padding: 3px 15px;
   float: left;
+
+}
+
+.header-text{
+  text-decoration: none;
+  color: white;
 }
 
 .header-links{
@@ -45,7 +51,7 @@ body{
 
 .header-links a{
   color: white;
-  text-decoration: none;
+  /*text-decoration: none;*/
   display: block;
   margin-right: 20px;
   padding: 2px 5px;

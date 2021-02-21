@@ -5,7 +5,7 @@ const Header = ({newsHead}) => {
     return (
         <header className={'doWidth'}>
         <div className={'main-page-header'}>
-            <h1 className={'header-text'}>{newsHead}</h1>
+            <h1><Link className={'header-text'} to={'/'}>{newsHead}</Link></h1>
             <div className={'header-links'}>
                 <ul>
                     <li><Link to ={'#'}>Stories </Link></li>
