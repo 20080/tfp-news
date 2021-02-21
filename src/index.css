@@ -51,7 +51,7 @@ body{
 
 .header-links a{
   color: white;
-  /*text-decoration: none;*/
+  text-decoration: none;
   display: block;
   margin-right: 20px;
   padding: 2px 5px;
@@ -90,16 +90,20 @@ word-spacing: 1em;
 .Storybox{
   display: flex;
   margin: 20px 30px 2.5rem 30px;
+  text-align: justify;
+  /*border: black solid 4px;*/
 
 }
 
 #storyX{
-  width: 70%;
+  width: 95%;
+  /*border: black solid 4px;*/
 }
 
 .recentStory{
 margin-left: auto;
 margin-right: auto ;
+  /*border: black solid 4px;*/
 }
 #recentList-Header{
   color: white;
@@ -114,8 +118,26 @@ margin-right: auto ;
   font-style: italic;
   padding-right: 5px;
 }
+#recentList-Header a{
+  color: white;
+  text-decoration: none;
+}
+#recentList-Header a:hover{
+  color: gold;
+}
+.RecentList a{
+  color: darkslateblue;
+  text-decoration: none;
+}
 .recentStory ul{
   list-style: none;
+}
+
+#image-wrap img{
+  float: left;
+  margin: 20px;
+  width: auto;
+  height: auto;
 }
 
 footer{
@@ -147,4 +169,8 @@ footer p{
  .navbar{
    height: 50px;
  }
+  #image-wrap img{
+    float: none;
+    margin: 20px;
+  }
 }
