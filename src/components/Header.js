@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import {Link} from "react-router-dom";
+import Storybox from "./Storybox";
 const Header = ({newsHead}) => {
 
     return (
@@ -15,6 +16,7 @@ const Header = ({newsHead}) => {
             </div>
         </div>
             <Navbar/>
+            <Storybox/>
         </header>
     )
 }
