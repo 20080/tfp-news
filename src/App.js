@@ -7,7 +7,6 @@ import LoginWithEmailAndPassword from "./components/LoginWithEmailAndPassword";
 function App() {
   return (
 <Router>
-    <Switch>
     <Route path='/' exact render={()=>(
         <Header newsHead={'TFP news'}/>
     )}/>
@@ -28,7 +27,6 @@ function App() {
     )}/>
     <Route path='/Login123'  component={LoginWithEmailAndPassword}/>
     <Footer/>
-    </Switch>
 </Router>
   );
 }
