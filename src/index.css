@@ -165,6 +165,14 @@ footer p{
     margin: 20px 30px 2.5rem 0;
   }
 }
+
+.formContainer {
+  margin: auto;
+  width: 15%;
+  padding: 20px;
+}
+
+
 @media (max-width: 510px) {
  .navbar{
    height: 50px;

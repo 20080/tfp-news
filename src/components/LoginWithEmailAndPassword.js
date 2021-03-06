@@ -8,8 +8,11 @@ const LoginWithEmailAndPassword = ()=>{
         <div className={'formContainer'}>
             <form onSubmit={LoginForm} className={'interForm'} >
             <label>User ID</label>
+                <br/>
             <input type='text'/>
+                <br/>
                 <label>Key</label>
+                <br/>
                 <input type='password'/>
                 <button>Log In</button>
         </form>
