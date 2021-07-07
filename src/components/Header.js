@@ -10,8 +10,8 @@ const Header = ({newsHead}) => {
             <div className={'header-links'}>
                 <ul>
                     <li><Link to ={'#'}>Stories </Link></li>
-                    <li><a href={'#'}>Support </a></li>
-                    <li><a href={'#'}>About </a></li>
+                    <li><Link to={'#'}>Support </Link></li>
+                    <li><Link to={'#'}>About </Link></li>
                 </ul>
             </div>
         </div>
